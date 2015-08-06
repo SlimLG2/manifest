@@ -1,12 +1,13 @@
+
 Getting Started
 ---------------
 
-To get started with SlimKat, you'll need to get familiar with
+To get started with SlimSaber, you'll need to get familiar with
 [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the SlimKat trees, use this command:
 
-	repo init -u https://github.com/SlimSaber/platform_manifest.git -b lp5.1
+	repo init -u https://github.com/SlimLG2/manifest.git -b lp5.1
 
 
 Getting Source
