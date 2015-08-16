@@ -450,9 +450,6 @@
   <project name="SlimSaber/KernelAdiutor" path="packages/apps/KernelAdiutor" remote="github" revision="lp5.1" />
   <project name="SlimSaber/android-floating-action-button" path="packages/apps/FloatingActionButton" remote="github" revision="lp5.1" />
 
-  <!-- SlimWallpaperPicker -->
-  <project name="SlimSaber/packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="github" revision="lp5.1" />
-
   <!-- ChameleonOS -->
   <project path="packages/apps/ScreenRecorder" name="SlimSaber/packages_apps_ScreenRecorder" remote="github" revision="lp5.1" />
 
