@@ -615,4 +615,9 @@
   <project name="SlimLG2/device_lge_ls980" path="device/lge/ls980" remote="github" revision="SlimG2" />
   <project name="SlimLG2/frameworks_base" path="frameworks/base" remote="github" revision="lp5.1" />
 
+<!-- Moto X Style -->
+<project name="SlimLG2/android_device_motorola_clark" path="device/motorola/clark" remote="github" revision="Slim511" />
+<project name="SlimLG2/android_kernel_motorola_msm8992" path="kernel/motorola/msm8992" remote="github" revision="cm-12.1" />
+<project name="SlimLG2/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.1-clark" />
+
 </manifest>
