@@ -607,7 +607,7 @@
  <!-- SlimG2 -->
   <project name="SlimLG2/device_lge_d801" path="device/lge/d801" remote="github" revision="SlimG2" />
   <project name="SlimLG2/g2_common" path="device/lge/g2-common" remote="github" revision="lp511" />
-  <project name="SlimLG2/props_vendor_lge" path="vendor/lge" remote="github" revision="lp511" />
+  <project name="HealthyHoney/vendor" path="vendor/lge" remote="github" revision="lp511" />
   <project name="SlimLG2/kernel" path="kernel/lge/msm8974" remote="github" revision="lp511" />
   <project name="SlimLG2/device_lge_d802" path="device/lge/d802" remote="github" revision="SlimG2" />
   <project name="SlimLG2/device_lge_d800" path="device/lge/d800" remote="github" revision="lp5.1" />
