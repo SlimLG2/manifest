@@ -16,7 +16,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="SlimSaber/android_art" remote="github" revision="lp5.1"  />
-  <project path="bionic" name="SlimSaber/android_bionic" remote="github" revision="lp5.1" />
+  <project path="bionic" name="Cyanogenmod/android_bionic" remote="github" revision="cm-12.1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="lp5.1" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
@@ -616,10 +616,10 @@
   <project name="SlimLG2/frameworks_base" path="frameworks/base" remote="github" revision="lp5.1" />
 
 <!-- Moto X Style -->
-<project name="gmillz/device_motorola_clark" path="device/motorola/clark" remote="github" revision="lp5.1" />
-<project name="MotoX-2015/android_kernel_motorola_msm8992" path="kernel/motorola/msm8992" remote="github" revision="cm-12.1" />
-<project name="gmillz/proprietary_vendor_motorola-1" path="vendor/motorola" remote="github" revision="lp5.1" />
-<project name="Cyanogenmod/android_external_mm-dash" path="external/mm-dash" remote="github" revision="cm-12.1" />
+<project name="Slimroms/device_motorola_clark" path="device/motorola/clark" remote="github" revision="lp5.1" />
+<project name="Slimroms/kernel_motorola_msm8992" path="kernel/motorola/msm8992" remote="github" revision="lp5.1" />
+<project name="gmillz/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lp5.1" />
+<project name="Slimroms/android_external_mm-dash" path="external/mm-dash" remote="github" revision="lp5.1" />
 <!--<project name="Cyanogenmod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm12.1" />-->
 
 </manifest>
