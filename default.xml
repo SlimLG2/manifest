@@ -15,8 +15,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="SlimSaber/android_art" remote="github" revision="lp5.1"  />
-  <project path="bionic" name="Cyanogenmod/android_bionic" remote="github" revision="cm-12.1" />
+  <project path="art" name="SlimLG2/android_art" remote="github" revision="lp5.1"  />
+  <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="lp5.1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="lp5.1" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
@@ -222,7 +222,7 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/skia" name="SlimSaber/android_external_skia" remote="github" revision="lp5.1" />
+  <project path="external/skia" name="SlimRoms/android_external_skia" remote="github" revision="lp5.1" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
@@ -305,7 +305,7 @@
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="lp5.1" />
   <project path="hardware/ti/wlan" name="SlimRoms/hardware_ti_wlan" remote="github" revision="lp5.1" />
   <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="github" revision="lp5.1" />
-  <project path="libcore" name="SlimSaber/platform_libcore" remote="github" revision="lp5.1" />
+  <project path="libcore" name="SlimLG2/platform_libcore" remote="github" revision="lp5.1" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -366,8 +366,6 @@
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,darwin,arm" />
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" />
@@ -377,8 +375,6 @@
   <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" groups="pdk,darwin,mips" />
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" groups="pdk,darwin,x86" />
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" revision="master" groups="pdk,darwin,x86" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" />
@@ -417,7 +413,7 @@
   <project path="platform_manifest" name="SlimLG2/manifest" remote="github" revision="SlimG2" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/slim" name="SlimSaber/vendor_slim" remote="github" revision="lp5.1" />
+  <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="lp5.1" />
 
   <!-- SlimLauncher -->
   <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="lp5.1" />
@@ -436,6 +432,9 @@
   <project name="SlimSaber/uber_arm-androideabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-cortex-a15" revision="master" remote="github" />
   <project name="SlimSaber/uber_arm-eabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-cortex-a15" revision="master" remote="github" />
 
+<!-- aarch64 Google ToolChains -->
+  <project name="SlimRoms/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="lp5.1" remote="github" />
+  <project name="SlimRoms/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" revision="lp5.1" remote="github" />
 
   <!-- Uber toolchain -->
   <project name="SlimSaber/uber_arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="master" />
@@ -527,6 +526,8 @@
   <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-12.1-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-12.1-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-12.1-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8992" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-12.1-caf-8992" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-12.1-caf-8994" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-12.1" />
   <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-12.1-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8226" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-12.1-caf-8226" />
@@ -534,6 +535,8 @@
   <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-12.1-caf-8916" />
   <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-12.1-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-12.1-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8992" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-12.1-caf-8992" />
+  <project path="hardware/qcom/display-caf/msm8994" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-12.1-caf-8994" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="cm-12.1" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="github" revision="cm-12.1" />
   <project path="hardware/qcom/media/default" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-12.1" />
@@ -543,6 +546,8 @@
   <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-12.1-caf-8916" />
   <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-12.1-caf-8960" />
   <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-12.1-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8992" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-12.1-caf-8992" />
+  <project path="hardware/qcom/media-caf/msm8994" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-12.1-caf-8994" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="github" revision="cm-12.1" />
 
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" remote="github" revision="cm-12.1" />
@@ -579,7 +584,7 @@
   <project path="packages/services/Telephony" name="SlimSaber/packages_services_Telephony" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/telephony" name="SlimSaber/frameworks_opt_telephony" remote="github" revision="cm-12.1" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" remote="github" revision="cm-12.1" />
-  <project path="frameworks/opt/net/ims" name="SlimSaber/android_frameworks_opt_net_ims" remote="github" revision="cm-12.1" />
+  <project path="frameworks/opt/net/ims" name="SlimRoms/frameworks_opt_net_ims" remote="github" revision="lp5.1" />
   <project path="packages/providers/TelephonyProvider" name="SlimSaber/packages_providers_TelephonyProvider" remote="github" revision="cm-12.1" />
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" remote="github" revision="cm-12.1" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" remote="github" revision="cm-12.1" />
@@ -616,10 +621,10 @@
   <project name="SlimLG2/frameworks_base" path="frameworks/base" remote="github" revision="lp5.1" />
 
 <!-- Moto X Style -->
-<project name="Slimroms/device_motorola_clark" path="device/motorola/clark" remote="github" revision="lp5.1" />
-<project name="Slimroms/kernel_motorola_msm8992" path="kernel/motorola/msm8992" remote="github" revision="lp5.1" />
-<project name="gmillz/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lp5.1" />
-<project name="Slimroms/android_external_mm-dash" path="external/mm-dash" remote="github" revision="lp5.1" />
-<!--<project name="Cyanogenmod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm12.1" />-->
+<project name="SlimLG2/device_motorola_clark" path="device/motorola/clark" remote="github" revision="lp5.1" />
+<project name="SlimLG2/kernel_motorola_msm8992" path="kernel/motorola/msm8992" remote="github" revision="lp5.1" />
+<project name="SlimLG2/props_vendor_moto" path="vendor/motorola" remote="github" revision="cm-12.1-clark" />
+<project name="Cyanogenmod/android_external_mm-dash" path="external/mm-dash" remote="github" revision="cm-12.1" />-->
+<project name="Cyanogenmod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
 
 </manifest>
