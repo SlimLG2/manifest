@@ -606,5 +606,5 @@
   <project name="SlimLG2/frameworks_base" path="frameworks/base" remote="github" revision="lp5.1" />
 
 <!--Moto X Style-->
-  <project name="SlimLG2/device_clark" path="device/moto/clark" remote="github" revision="cm-12.1" />
+  <project name="SlimLG2/device_motorola_clark" path="device/motorola/clark" remote="github" revision="lp5.1" />
 </manifest>
