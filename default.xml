@@ -413,7 +413,7 @@
   <project path="platform_manifest" name="SlimLG2/manifest" remote="github" revision="SlimG2" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="lp5.1" />
+  <project path="vendor/slim" name="SlimSaber/vendor_slim" remote="github" revision="lp5.1" />
 
   <!-- SlimLauncher -->
   <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="lp5.1" />
